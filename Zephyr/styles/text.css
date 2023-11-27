@@ -79,7 +79,7 @@ pre {
   }
 }
 
-.z-text {
+span[data-z-text] {
   font-family: var(--z-font);
   font-weight: bold;
   font-size: 1em;
@@ -87,6 +87,6 @@ pre {
   text-align: center;
 }
 
-.z-center {
+[data-z-center] {
   text-align: center;
 }

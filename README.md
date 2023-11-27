@@ -1,17 +1,12 @@
 <h1 align="center">Zephyr 🎐</h1>
 
 <p align="center">
-  Minimal class-less* css stylesheet to make boring sites look cool!
+  Minimal class-less css stylesheet to make boring sites look cool!
 </p>
 
 
-
-## Demo 👀
-Check out the [**demo**](https://itz-fork.github.io/Zephyr)
-
-
-## Usage 🤔
-Looks good? Then why don't you try using it ~
+## Usage
+Check out the [demo](https://itz-fork.github.io/Zephyr). If you're satisfied give it a try~
 
 
 **In HTML**
@@ -36,20 +31,22 @@ Looks good? Then why don't you try using it ~
 @import url("https://cdn.jsdelivr.net/gh/Itz-fork/Zephyr-Css@latest/Zephyr/styles/form.css");
 ```
 
-## Helper classes
-Although it's mainly classless, it has some helper classes to help you do stuff,
+## z-* helpers
+These are additional data classes to make sure you don't have to touch css, unless it's necessary
+
+Syntax: `<element data-z-*></element>`
 
 - Buttons
-  - `red`
-  - `green`
-  - `white`
-  - `yellow`
-  - `purple`
-  - `blue` (accent color)
+  - `data-red`
+  - `data-green`
+  - `data-white`
+  - `data-yellow`
+  - `data-purple`
+  - `data-blue` (accent color)
 
 - CSS cards
-  - Create a container div with `z-card-container`
-  - Add cards with `z-card` class
+  - Create a container div with `data-z-card-container`
+  - Add cards with `data-z-card`
 
 - Code blocks
   - You can add code blocks with file names like this,
@@ -62,7 +59,7 @@ Although it's mainly classless, it has some helper classes to help you do stuff,
   ```
 
 - Text formatting
-  - Center text with `z-center`
+  - Center text with `data-z-center`
 
 ## Examples 👷
 Take a look at [Demo Html File](https://github.com/Itz-fork/Zephyr-Css/blob/main/index.html)

@@ -11,6 +11,7 @@ table {
   color: var(--z-white-text);
   font-family: var(--z-font);
   border-collapse: collapse;
+  display: inline-block;
 }
 
 table.z-center {

@@ -29,36 +29,36 @@ button:disabled, button[disabled=disabled] {
     color: #969595d0;
 }
 
-button.red {
+button[data-z-red] {
     background-color: var(--z-red);
     box-shadow: 0 2px 4px 0 var(--z-red-shadow);
 }
 
-button.green {
+button[data-z-green] {
     color: #111720;
     background-color: var(--z-green);
     box-shadow: 0 2px 4px 0 var(--z-green-shadow);
 }
 
-button.white {
+button[data-z-white] {
     color: #111720;
     background-color: var(--z-white);
     box-shadow: 0 2px 4px 0 var(--z-white-shadow);
 }
 
-button.yellow {
+button[data-z-yellow] {
     color: #111720;
     background-color: var(--z-yellow);
     box-shadow: 0 2px 4px 0 var(--z-yellow-shadow);
 }
 
-button.purple {
+button[data-z-purple] {
     color: #111720;
     background-color: var(--z-purple);
     box-shadow: 0 2px 4px 0 var(--z-purple-shadow);
 }
 
-button.blue {
+button[data-z-blue] {
     color: #111720;
     background-color: var(--z-blue);
     box-shadow: 0 2px 4px 0 var(--z-blue-shadow);

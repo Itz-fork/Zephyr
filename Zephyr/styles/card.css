@@ -7,7 +7,7 @@
 
 @import url("../main.css");
 
-.z-card-container {
+div[data-z-card-container] {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
@@ -19,7 +19,7 @@
   }
 }
 
-.z-card {
+div[data-z-card] {
   border-radius: 10px;
   background-color: var(--z-dark);
   box-shadow: 0 2px 4px 0 #61666e;
@@ -28,7 +28,7 @@
   transition: 0.5s ease-in-out;
   width: fit-content;
 }
-.z-card:hover {
+div[data-z-card]:hover {
   background-color: var(--z-dark-back);
   box-shadow: 0 2px 4px 0 #bdbdbd;
 }

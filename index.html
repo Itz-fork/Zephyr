@@ -13,7 +13,7 @@
 <body>
     <!-- Headers & Text -->
     <h1 align="center">Zephyr 🎐</h1>
-    <p class="z-center">Minimal class-less* css stylesheet to make boring sites look cool!</p>
+    <p data-z-center>Minimal class-less css stylesheet to make boring sites look cool!</p>
 
     <hr>
     <h1>This is Heading 1</h1>
@@ -22,11 +22,11 @@
     <h4>This is Heading 4</h4>
     <h5>This is Heading 5</h5>
     <h6>This is Heading 6</h6>
-    <span class="z-text">This is a normal text</span></br>
+    <span data-z-text>This is a normal text</span></br>
 
     <br>
     <pre><span>code_ex.js</span>
-<code>
+<code>// function to retrieve movie info
 async function getMovies() {
     const response = await fetch("http://moviedb.com/api/movies.json");
     const movies = await response.json();
@@ -37,16 +37,15 @@ async function getMovies() {
     <hr>
 
     <!-- Card -->
-    <div class="z-card-container">
-
-        <div class="z-card">
+    <div data-z-card-container>
+        <div data-z-card>
             <p>
                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
                 and I will give you a complete account of the system,
             </p>
         </div>
-        <div class="z-card">
-            <p class="z-center">
+        <div data-z-card>
+            <p data-z-center>
                 CSS Card 🔥 <br>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
                 massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
@@ -54,7 +53,7 @@ async function getMovies() {
                 Centered using <code>z-center</code>
             </p>
         </div>
-        <div class="z-card">
+        <div data-z-card>
             <p>
                 One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a
                 horrible vermin. He lay on his armour-like back, and if he lifted
@@ -67,12 +66,12 @@ async function getMovies() {
     <!-- Buttons -->
     <button>Default</button>
     <button disabled>Disabled</button>
-    <button class="red">Red Button</button>
-    <button class="green">Green Button</button>
-    <button class="white">White Button</button>
-    <button class="yellow">Yellow Button</button>
-    <button class="purple">Purple Button</button>
-    <button class="blue">Blue Button</button>
+    <button data-z-red>Red Button</button>
+    <button data-z-green>Green Button</button>
+    <button data-z-white>White Button</button>
+    <button data-z-yellow>Yellow Button</button>
+    <button data-z-purple>Purple Button</button>
+    <button data-z-blue>Blue Button</button>
 
     <!-- This is just an empty div. Don't care about it! -->
     <div style="margin-top: 2em;"></div>
@@ -115,28 +114,30 @@ async function getMovies() {
 
     <!-- Tables -->
     <br>
-    <table class="z-center">
-        <tr>
-            <th>Code</th>
-            <th>Name</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>6AUTGH</td>
-            <td>Wireless earbuds</td>
-            <td>100$</td>
-        </tr>
-        <tr>
-            <td>9OLKUG</td>
-            <td>Portable 3D Printer</td>
-            <td>1000$</td>
-        </tr>
-        <tr>
-            <td>4HJKOL</td>
-            <td>Mini PC</td>
-            <td>300$</td>
-        </tr>
-    </table>
+    <div data-z-center>
+        <table>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>6AUTGH</td>
+                <td>Wireless earbuds</td>
+                <td>100$</td>
+            </tr>
+            <tr>
+                <td>9OLKUG</td>
+                <td>Portable 3D Printer</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <td>4HJKOL</td>
+                <td>Mini PC</td>
+                <td>300$</td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
