@@ -1,7 +1,7 @@
 /*
 
-$ Copyright (c) 2021 Itz-fork
-$ Project - Zephyr
+  Copyright (c) 2023 Itz-fork
+  Project - Zephyr
 
 */
 
@@ -9,7 +9,7 @@ $ Project - Zephyr
 
 form {
   padding: 1rem 0.5rem;
-  background-color: var(--x-dark);
+  background-color: var(--z-dark);
   border-radius: 0.5em;
   display: grid;
   gap: 1rem;
@@ -23,14 +23,14 @@ form {
 }
 
 label {
-  color: var(--x-white);
-  font-family: var(--x-font);
+  color: var(--z-white);
+  font-family: var(--z-font);
   /* display: inline-block; */
 }
 
 input[type="text"] {
-  color: var(--x-white-text);
-  background-color: var(--x-dark-back);
+  color: var(--z-white-text);
+  background-color: var(--z-dark-back);
   padding: 0.5rem 1rem;
   border-radius: 0.3em;
   width: clamp(20em, 75%, 1000em);
@@ -51,15 +51,15 @@ input[type="checkbox"] {
   width: 1rem;
   height: 1rem;
   font: inherit;
-  background-color: var(--x-dark);
-  border: 0.15em solid var(--x-white);
+  background-color: var(--z-dark);
+  border: 0.15em solid var(--z-white);
   border-radius: 0.15em;
   &:checked {
-    background: var(--x-blue);
+    background: var(--z-blue);
   }
   &:disabled {
     user-select: none;
-    background-color: var(--x-disabled);
+    background-color: var(--z-disabled);
     color: #959495;
   }
 }
@@ -72,19 +72,19 @@ input[type="radio"] {
   font: inherit;
   background: radial-gradient(
       farthest-side,
-      var(--x-blue) 94%,
-      var(--x-dark-back)
+      var(--z-blue) 94%,
+      var(--z-dark-back)
     )
     50%/0 0 no-repeat content-box;
   border-radius: 50%;
-  border: calc(1rem / 6) solid var(--x-white);
+  border: calc(1rem / 6) solid var(--z-white);
   outline-offset: calc(1rem / 10);
   padding: calc(1rem / 4);
   aspect-ratio: 1;
   transition: 0.2s;
 
   &:checked {
-    border-color: var(--x-blue);
+    border-color: var(--z-blue);
     -webkit-box-shadow: 0px 1px 6px 3px rgba(130, 220, 240, 1);
     -moz-box-shadow: 0px 1px 6px 3px rgba(130, 220, 240, 1);
     box-shadow: 0px 1px 6px 3px rgba(130, 220, 240, 1);
@@ -104,10 +104,10 @@ select {
   appearance: none;
   border: 0;
   font: inherit;
-  background-color: var(--x-dark-back);
-  color: var(--x-white-text);
+  background-color: var(--z-dark-back);
+  color: var(--z-white-text);
   padding: 0.2rem;
   cursor: pointer;
-  border: 0.1rem solid var(--x-blue);
+  border: 0.1rem solid var(--z-blue);
   border-radius: 0.3rem;
 }

@@ -1,7 +1,7 @@
 /*
 
-$ Copyright (c) 2021 Itz-fork
-$ Project - Zephyr
+  Copyright (c) 2023 Itz-fork
+  Project - Zephyr
 
 */
 
@@ -9,13 +9,13 @@ $ Project - Zephyr
 
 
 button {
-    font-family: var(--x-font);
-    color: var(--x-white-text);
+    font-family: var(--z-font);
+    color: var(--z-white-text);
     font-weight: bold;
     font-size: 1em;
     border-radius: 8px;
-    background-color: var(--x-default);
-    box-shadow: 0 2px 4px 0 var(--x-default-shadow);
+    background-color: var(--z-default);
+    box-shadow: 0 2px 4px 0 var(--z-default-shadow);
     padding: 0.8em;
     margin: 0.6em 0.5em;
     border: none;
@@ -23,49 +23,49 @@ button {
 }
 
 button:disabled, button[disabled=disabled] {
-    background-color: var(--x-disabled);
+    background-color: var(--z-disabled);
     transition: unset;
     pointer-events: none;
     color: #969595d0;
 }
 
 button.red {
-    background-color: var(--x-red);
-    box-shadow: 0 2px 4px 0 var(--x-red-shadow);
+    background-color: var(--z-red);
+    box-shadow: 0 2px 4px 0 var(--z-red-shadow);
 }
 
 button.green {
     color: #111720;
-    background-color: var(--x-green);
-    box-shadow: 0 2px 4px 0 var(--x-green-shadow);
+    background-color: var(--z-green);
+    box-shadow: 0 2px 4px 0 var(--z-green-shadow);
 }
 
 button.white {
     color: #111720;
-    background-color: var(--x-white);
-    box-shadow: 0 2px 4px 0 var(--x-white-shadow);
+    background-color: var(--z-white);
+    box-shadow: 0 2px 4px 0 var(--z-white-shadow);
 }
 
 button.yellow {
     color: #111720;
-    background-color: var(--x-yellow);
-    box-shadow: 0 2px 4px 0 var(--x-yellow-shadow);
+    background-color: var(--z-yellow);
+    box-shadow: 0 2px 4px 0 var(--z-yellow-shadow);
 }
 
 button.purple {
     color: #111720;
-    background-color: var(--x-purple);
-    box-shadow: 0 2px 4px 0 var(--x-purple-shadow);
+    background-color: var(--z-purple);
+    box-shadow: 0 2px 4px 0 var(--z-purple-shadow);
 }
 
 button.blue {
     color: #111720;
-    background-color: var(--x-blue);
-    box-shadow: 0 2px 4px 0 var(--x-blue-shadow);
+    background-color: var(--z-blue);
+    box-shadow: 0 2px 4px 0 var(--z-blue-shadow);
 }
 
 button:hover {
-    color: var(--x-white-text);
+    color: var(--z-white-text);
     border-radius: 8px;
     background-color: #434b55;
 }

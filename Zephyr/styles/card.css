@@ -1,27 +1,31 @@
 /*
 
-$ Copyright (c) 2021 Itz-fork
-$ Project - Zephyr
+  Copyright (c) 2023 Itz-fork
+  Project - Zephyr
 
 */
 
 @import url("../main.css");
 
-.x-card-container {
+.z-card-container {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+  @media only screen and (max-device-width: 770px) {
+    grid-template-columns: repeat(auto-fit, minmax(calc(100%/2), 1fr));
+  }
 }
 
-.x-card {
+.z-card {
   border-radius: 10px;
-  background-color: var(--x-dark);
+  background-color: var(--z-dark);
   box-shadow: 0 2px 4px 0 #61666e;
   padding: 1rem;
   margin: 2em 1em;
   transition: 0.5s ease-in-out;
   width: fit-content;
 }
-.x-card:hover {
-  background-color: var(--x-dark-back);
+.z-card:hover {
+  background-color: var(--z-dark-back);
   box-shadow: 0 2px 4px 0 #bdbdbd;
 }
