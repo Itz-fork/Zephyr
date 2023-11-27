@@ -23,7 +23,17 @@
     <h5>This is Heading 5</h5>
     <h6>This is Heading 6</h6>
     <span class="z-text">This is a normal text</span></br>
-    <code>This is a code text</code>
+
+    <br>
+    <pre><span>code_ex.js</span>
+<code>
+async function getMovies() {
+    const response = await fetch("http://moviedb.com/api/movies.json");
+    const movies = await response.json();
+    console.log(movies);
+}
+</code>
+    </pre>
     <hr>
 
     <!-- Card -->

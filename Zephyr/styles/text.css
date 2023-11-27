@@ -7,75 +7,86 @@
 
 @import url("../main.css");
 
-
 h1 {
-    color: var(--z-white);
-    font-size: 2em;
-    font-family: var(--z-font);
-    font-weight: bold;
+  color: var(--z-white);
+  font-size: 2em;
+  font-family: var(--z-font);
+  font-weight: bold;
 }
 
 h2 {
-    color: var(--z-white);
-    font-size: 1.8em;
-    font-family: var(--z-font);
-    font-weight: bold;
+  color: var(--z-white);
+  font-size: 1.8em;
+  font-family: var(--z-font);
+  font-weight: bold;
 }
 
 h3 {
-    color: var(--z-white);
-    font-size: 1.7em;
-    font-family: var(--z-font);
-    font-weight: bold;
+  color: var(--z-white);
+  font-size: 1.7em;
+  font-family: var(--z-font);
+  font-weight: bold;
 }
 
 h4 {
-    color: var(--z-white);
-    font-size: 1.5em;
-    font-family: var(--z-font);
-    font-weight: bold;
+  color: var(--z-white);
+  font-size: 1.5em;
+  font-family: var(--z-font);
+  font-weight: bold;
 }
 
 h5 {
-    color: var(--z-white);
-    font-size: 1.3em;
-    font-family: var(--z-font);
-    font-weight: bold;
+  color: var(--z-white);
+  font-size: 1.3em;
+  font-family: var(--z-font);
+  font-weight: bold;
 }
 
 h6 {
-    color: var(--z-white);
-    font-size: 1.15em;
-    font-family: var(--z-font);
-    font-weight: bold;
+  color: var(--z-white);
+  font-size: 1.15em;
+  font-family: var(--z-font);
+  font-weight: bold;
 }
 
 p {
-    font-family: var(--z-font);
-    font-weight: bold;
-    font-size: 1em;
-    color: var(--z-white-text);
+  font-family: var(--z-font);
+  font-weight: bold;
+  font-size: 1em;
+  color: var(--z-white-text);
 }
 
-code {
-    font-family: monospace;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0.2rem;
+pre {
+  > span {
+    color: var(--z-dark);
+    font-size: medium;
+    float: right;
+    background-color: var(--z-yellow);
+  }
+  > code {
     color: var(--z-white-text);
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.5rem;
     background-color: var(--z-dark-back);
-    padding: 0.3rem;
-    line-height: 1.2rem;
+    display: block;
+    max-width: 100%;
+    font-family: monospace;
+    overflow: auto;
+    page-break-inside: avoid;
+    word-wrap: break-word;
+    border-left: 0.3rem solid var(--z-blue);
+  }
 }
 
 .z-text {
-    font-family: var(--z-font);
-    font-weight: bold;
-    font-size: 1em;
-    color: var(--z-white-text);
-    text-align: center;
+  font-family: var(--z-font);
+  font-weight: bold;
+  font-size: 1em;
+  color: var(--z-white-text);
+  text-align: center;
 }
 
 .z-center {
-    text-align: center;
+  text-align: center;
 }

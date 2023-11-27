@@ -51,6 +51,16 @@ Although it's mainly classless, it has some helper classes to help you do stuff,
   - Create a container div with `z-card-container`
   - Add cards with `z-card` class
 
+- Code blocks
+  - You can add code blocks with file names like this,
+  ```html
+  <pre>
+  <code><span>file_name.js</span>
+  console.log("My code")
+  </code>
+  </pre>
+  ```
+
 - Text formatting
   - Center text with `z-center`
 
