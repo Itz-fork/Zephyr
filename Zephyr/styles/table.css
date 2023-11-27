@@ -1,0 +1,32 @@
+/*
+
+  Copyright (c) 2023 Itz-fork
+  Project - Zephyr
+
+*/
+
+@import url("../main.css");
+
+table {
+  color: var(--z-white-text);
+  font-family: var(--z-font);
+  border-collapse: collapse;
+}
+
+table.z-center {
+  margin: auto;
+}
+
+th {
+  font-size: larger;
+  border-bottom: 0.1rem solid var(--z-white_hover);
+}
+
+tr:nth-child(even) {
+  background-color: var(--z-dark-faded);
+}
+
+td {
+  word-break: break-all;
+  padding: 0.5rem;
+}

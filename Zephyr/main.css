@@ -15,7 +15,8 @@
 
     /* Dark colors */
     --z-dark: #18202c;
-    --z-dark-back: #202936;
+    --z-dark-back: #212a38;
+    --z-dark-faded: rgb(29, 39, 53, 0.4);
 
     /* Button colors */
     --z-disabled: #475364c5;
