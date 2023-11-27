@@ -25,10 +25,15 @@ form {
 label {
   color: var(--z-white);
   font-family: var(--z-font);
-  /* display: inline-block; */
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="url"] {
   color: var(--z-white-text);
   background-color: var(--z-dark-back);
   padding: 0.5rem 1rem;
