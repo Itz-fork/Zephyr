@@ -1,0 +1,37 @@
+/*
+
+$ Copyright (c) 2023 Itz-fork
+$ Project - Luxen.css
+
+*/
+
+:root {
+    /* White colors */
+    --x-white: #e9edf5;
+    --x-white_hover: #ced3cf;
+    --x-white-text: #D8DEE9;
+
+    /* Dark colors */
+    --x-dark: #18202c;
+    --x-dark-back: #202936;
+
+    /* Button colors */
+    --x-disabled: #475364c5;
+    --x-default: #1f2936;
+    --x-default-shadow: #61666e;
+    --x-red: #e21818;
+    --x-red-shadow: #e73434;
+    --x-green: #26d451;
+    --x-green-shadow: #3be665;
+    --x-white: #ebedf0;
+    --x-white-shadow: #d3d5da;
+    --x-yellow: #e7f083;
+    --x-yellow-shadow: #f1fa8c;
+    --x-purple: #b388f0;
+    --x-purple-shadow: #bb93f3;
+    --x-blue: #72cbdf;
+    --x-blue-shadow: #82dcf0;
+
+    /* Fonts */
+    --x-font: "Jetbrains Mono";
+}

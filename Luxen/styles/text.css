@@ -1,0 +1,78 @@
+/*
+
+$ Copyright (c) 2021 Itz-fork
+$ Project - Luxen
+
+*/
+
+@import url("../main.css");
+
+
+h1 {
+    color: var(--x-white);
+    font-size: 2em;
+    font-family: var(--x-font);
+    font-weight: bold;
+}
+
+h2 {
+    color: var(--x-white);
+    font-size: 1.8em;
+    font-family: var(--x-font);
+    font-weight: bold;
+}
+
+h3 {
+    color: var(--x-white);
+    font-size: 1.6em;
+    font-family: var(--x-font);
+    font-weight: bold;
+}
+
+h4 {
+    color: var(--x-white);
+    font-size: 1.4em;
+    font-family: var(--x-font);
+    font-weight: bold;
+}
+
+h5 {
+    color: var(--x-white);
+    font-size: 1.2em;
+    font-family: var(--x-font);
+    font-weight: bold;
+}
+
+h6 {
+    color: var(--x-white);
+    font-size: 1em;
+    font-family: var(--x-font);
+    font-weight: bold;
+}
+
+p {
+    font-family: "Jetbrains Mono";
+    font-weight: bold;
+    font-size: 1.1em;
+    color: var(--x-white-text);
+}
+
+code {
+    font-family: monospace;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--x-white-text);
+    background-color: var(--x-dark-back);
+}
+
+.x-text {
+    font-family: "Jetbrains Mono";
+    font-weight: bold;
+    font-size: 1em;
+    color: var(--x-white-text);
+    text-align: center;
+}
+
+.x-center {
+    text-align: center;
+}
