@@ -1,0 +1,113 @@
+/*
+
+$ Copyright (c) 2021 Itz-fork
+$ Project - Zephyr
+
+*/
+
+@import url("../main.css");
+
+form {
+  padding: 1rem 0.5rem;
+  background-color: var(--x-dark);
+  border-radius: 0.5em;
+  display: grid;
+  gap: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  @media only screen and (min-device-width: 800px) {
+    margin: clamp(3vw, 5vw, 20vw);
+    place-items: center;
+    grid-template-columns: auto auto;
+  }
+}
+
+label {
+  color: var(--x-white);
+  font-family: var(--x-font);
+  /* display: inline-block; */
+}
+
+input[type="text"] {
+  color: var(--x-white-text);
+  background-color: var(--x-dark-back);
+  padding: 0.5rem 1rem;
+  border-radius: 0.3em;
+  width: clamp(20em, 75%, 1000em);
+  border: none;
+  box-sizing: border-box;
+  transition: 0.5s ease-in-out;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 1px 2px 1px #7dd5e9;
+  }
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  width: 1rem;
+  height: 1rem;
+  font: inherit;
+  background-color: var(--x-dark);
+  border: 0.15em solid var(--x-white);
+  border-radius: 0.15em;
+  &:checked {
+    background: var(--x-blue);
+  }
+  &:disabled {
+    user-select: none;
+    background-color: var(--x-disabled);
+    color: #959495;
+  }
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  font: inherit;
+  background: radial-gradient(
+      farthest-side,
+      var(--x-blue) 94%,
+      var(--x-dark-back)
+    )
+    50%/0 0 no-repeat content-box;
+  border-radius: 50%;
+  border: calc(1rem / 6) solid var(--x-white);
+  outline-offset: calc(1rem / 10);
+  padding: calc(1rem / 4);
+  aspect-ratio: 1;
+  transition: 0.2s;
+
+  &:checked {
+    border-color: var(--x-blue);
+    -webkit-box-shadow: 0px 1px 6px 3px rgba(130, 220, 240, 1);
+    -moz-box-shadow: 0px 1px 6px 3px rgba(130, 220, 240, 1);
+    box-shadow: 0px 1px 6px 3px rgba(130, 220, 240, 1);
+  }
+
+  &:disabled {
+    opacity: 0.2;
+    color: rgba(0, 0, 0, 0.2) !important;
+    text-decoration: line-through;
+    user-select: none;
+  }
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  font: inherit;
+  background-color: var(--x-dark-back);
+  color: var(--x-white-text);
+  padding: 0.2rem;
+  cursor: pointer;
+  border: 0.1rem solid var(--x-blue);
+  border-radius: 0.3rem;
+}
