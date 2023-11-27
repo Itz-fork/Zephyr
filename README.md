@@ -5,13 +5,16 @@
 </p>
 
 
+
 ## Usage
+Zephyr doesn't intends to become a complete css component kit, it's a *css stylesheet* to make default HTML sites better
+
 Check out the [demo](https://itz-fork.github.io/Zephyr). If you're satisfied give it a try~
 
 
 **In HTML**
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Itz-fork/Zephyr-Css@latest/Zephyr/Zephyr.all.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Itz-fork/Zephyr-Css@latest/Zephyr/zephyr.all.css">
 
 <!-- Or just use what you want -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Itz-fork/Zephyr-Css@latest/Zephyr/styles/buttons.css">
@@ -22,7 +25,7 @@ Check out the [demo](https://itz-fork.github.io/Zephyr). If you're satisfied giv
 
 **In Css**
 ```css
-@import url("https://cdn.jsdelivr.net/gh/Itz-fork/Zephyr-Css@latest/Zephyr/Zephyr.all.css");
+@import url("https://cdn.jsdelivr.net/gh/Itz-fork/Zephyr-Css@latest/Zephyr/zephyr.all.css");
 
 /* Again, use what you want */
 @import url("https://cdn.jsdelivr.net/gh/Itz-fork/Zephyr-Css@latest/Zephyr/styles/buttons.css");
@@ -37,12 +40,12 @@ These are additional data classes to make sure you don't have to touch css, unle
 Syntax: `<element data-z-*></element>`
 
 - Buttons
-  - `data-red`
-  - `data-green`
-  - `data-white`
-  - `data-yellow`
-  - `data-purple`
-  - `data-blue` (accent color)
+  - `data-z-red`
+  - `data-z-green`
+  - `data-z-white`
+  - `data-z-yellow`
+  - `data-z-purple`
+  - `data-z-blue` (accent color)
 
 - CSS cards
   - Create a container div with `data-z-card-container`
